@@ -7,5 +7,10 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
+john = Customer.new("John","doe")
+mcDonalds = Restaurant.new("Kurger Bing")
+bad rating= Review.new(1,"Karen","Taco Bell")
+
 binding.pry
+
 0 #leave this here to ensure binding.pry isn't the last line
